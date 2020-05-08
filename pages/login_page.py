@@ -9,7 +9,7 @@ class LoginPage(BasePage):
         self.should_be_register_form()
 
     def should_be_login_url(self):
-        url = self.brouser.current_url
+        url = self.browser.current_url
         assert url == LoginPageLocators.LOGIN_URL, f"Url don't correct, {url} should be {LoginPageLocators.LOGIN_URL}"
 
     def should_be_login_form(self):
