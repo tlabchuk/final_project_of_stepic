@@ -18,3 +18,4 @@ class ProductPageLocators:
     NAME_OF_BOOK_IN_BASKET = (By.CSS_SELECTOR, '#messages > div:nth-child(1) > div > strong')
     PRICE_OF_BOOK = (By.CSS_SELECTOR, '.product_main > .price_color')
     PRICE_OF_BOOK_IN_BASKET = (By.CSS_SELECTOR, '.alertinner > p > strong')
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, "#messages > div:nth-child(1)")
